@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppButton">
+        <item name="android:layout_width">@dimen/app_buttons_width</item>
+        <item name="android:layout_height">@dimen/app_buttons_height</item>
+        <item name="android:layout_margin">@dimen/app_buttons_margin</item>
+        <item name="android:background">#FF5722</item>
+    </style>
+
+
+    <style name="CapstoneButton">
+        <item name="android:layout_width">@dimen/app_buttons_width</item>
+        <item name="android:layout_height">@dimen/app_buttons_height</item>
+        <item name="android:layout_margin">@dimen/app_buttons_margin</item>
+        <item name="android:background">#9C27B0</item>
+    </style>
+
+    <dimen name="app_buttons_margin">5dp</dimen>
+</resources>

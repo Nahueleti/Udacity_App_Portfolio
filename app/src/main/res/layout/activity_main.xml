@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/textview_title_margin"
+        android:text="@string/textview_text_title"
+        android:textSize="@dimen/textview_textsize" />
+
+    <Button style="@style/AppButton"
+        android:id="@+id/btn_streamer"
+        android:text="@string/button_text_streamer" />
+
+    <Button style="@style/AppButton"
+        android:id="@+id/btn_scores"
+        android:text="@string/button_text_scores" />
+
+    <Button style="@style/AppButton"
+        android:id="@+id/btn_library"
+        android:text="@string/button_text_library" />
+
+    <Button style="@style/AppButton"
+        android:id="@+id/btn_build_it_bigger"
+        android:text="@string/button_text_build_it_bigger" />
+
+    <Button style="@style/AppButton"
+        android:id="@+id/btn_xyz_reader"
+        android:text="@string/button_text_xyz_reader" />
+
+    <Button style="@style/CapstoneButton"
+        android:id="@+id/btn_capstone_project"
+        android:text="@string/button_text_capstone" />
+
+</LinearLayout>
